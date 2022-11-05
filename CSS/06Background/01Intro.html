@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            height: 500px;
+            margin: 10px 0px;
+            /* padding: 100px; */
+        }
+
+        .background-attachment {
+            border: 10px dotted greenyellow;
+            background-image: url(../../Images/banner-2.webp);
+            background-attachment: fixed;
+            /* background-attachment: scroll; */
+
+        }
+
+        .background-clip {
+            border: 10px dotted greenyellow;
+            background-image: url(../../Images/banner-3.jpg);
+            /* background-clip: border-box; */
+            /* background-clip: padding-box; */
+            background-clip: content-box;
+            /* background-repeat: no-repeat; */
+            padding: 100px;
+
+
+        }
+        .background-origin {
+            border: 10px dashed rgb(255, 113, 47);
+            background-image: url(../../Images/banner-3.jpg);
+            /* background-origin: border-box; */
+            /* background-origin: padding-box; */
+            background-origin: content-box;
+            /* background-repeat: no-repeat; */
+            padding: 100px;
+
+        }
+        .background-color {
+            border: 10px dotted greenyellow;
+            /* background-color: khaki; */
+            background-color: rgb(223, 11, 11);
+            /* background-color: #777; */
+        }
+
+        .background-image {
+            border: 10px dotted greenyellow;
+            background-image: url(../../Images/banner-2.webp);
+        }
+
+        
+
+        .background-position {
+            border: 10px dotted greenyellow;
+            background-image: url(../../Images/banner-3.jpg);
+            /* background-position: top; */
+            /* background-position: left; */
+            /* background-position: right; */
+            /* background-position: bottom; */
+            background-position: 20% 50%;
+            background-repeat: no-repeat;
+
+
+        }
+
+        .background-repeat {
+            border: 10px dotted greenyellow;
+            background-image: url(../../Images/banner-3.jpg);
+            background-repeat: repeat-x;
+            /* background-repeat: repeat-y; */
+            /* background-repeat: no-repeat; */
+            /* background-repeat: round; */
+
+
+        }
+
+        .background-size {
+            border: 10px dotted greenyellow;
+            background-image: url(../../Images/banner-3.jpg);
+            background-size: cover;
+            /* background-size: contain; */
+            background-repeat: no-repeat;
+
+        }
+        .bgshrthnd{
+            border: 10px dotted greenyellow;
+
+            background: url(../../Images/banner.jpg) no-repeat center center /cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul>
+        <li> background-attachment</li>
+        <li> background-clip</li>
+        <li> background-color</li>
+        <li> background-image</li>
+        <li> background-origin</li>
+        <li> background-position</li>
+        <li> background-repeat</li>
+        <li> background-size</li>
+    </ul>
+
+    <div class="background-attachment"> background-attachment</div>
+    <div class="background-clip"> background-clip</div>
+    <div class="background-origin"> background-origin</div>
+    <div class="background-color">background-color</div>
+    <div class="background-image"> background-image</div>
+    <div class="background-position"> background-position</div>
+    <div class="background-repeat"> background-repeat</div>
+    <div class="background-size"> background-size</div>
+    <div class="bgshrthnd">background-shorthand</div>
+</body>
+
+</html>
