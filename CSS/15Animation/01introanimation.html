@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            animation-name: laptop;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            /* animation-timing-function: linear; */
+            /* animation-timing-function: ease-in; */
+            /* animation-timing-function: ease-out; */
+        }
+        @keyframes laptop{
+            /* from{
+                background-color: blue;
+            }
+            to{
+               background-color: tomato;
+            } */
+            0%{background-color: rgb(247, 8, 8);}
+            10%{background-color: rgb(177, 214, 9);}
+            20%{background-color: rgb(11, 216, 243);}
+            40%{background-color: rgb(20, 6, 223);}
+            60%{background-color: rgb(174, 15, 248);}
+            80%{background-color: rgb(247, 243, 9);}
+            100%{background-color: rgb(238, 10, 40);}
+        }
+        .animate{
+            animation-name: Roshni;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            /* animation-timing-function: linear; */
+            animation-timing-function: ease-in;
+            animation-timing-function: ease-out;
+        }
+        @keyframes Roshni{
+            from{
+                margin-left: 80%;
+                width: 200%;
+            }
+            to{
+                margin-left: 0;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <p class="animate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas fuga, nulla ipsa, numquam aut quis soluta facilis iusto sunt, saepe consectetur esse minus. Autem, error fugiat necessitatibus deleniti ex rerum!</p>
+</body>
+</html>
