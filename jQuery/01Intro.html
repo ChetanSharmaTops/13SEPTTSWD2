@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Hemali is Good Girl</p>
+    <p>Hemali is Good Girl</p>
+    <p>Hemali is Good Girl</p>
+    <p>Hemali is Good Girl</p>
+    <p>Hemali is Good Girl</p>
+    <p>Hemali is Good Girl</p>
+    <img src="../Images/banner1.jpg" class="class" id="id" alt="">
+</body>
+    
+    <!-- <script src="js/jquery-3.6.2.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js"
+    integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+
+
+
+
+<script>
+    $(document).ready(function(){
+    // $(function(){
+
+
+
+        // console.log($);
+        console.log(jQuery);
+    
+        // $("selector").action();
+        // $("p").click();       // click on p
+        $("img").click();       // click on img
+        // $("p").click(function(){
+        $("img").click(function(){
+            // console.log("Hello Hemali");
+    
+            // $("p").hide();
+            // $(this).hide();
+            // $("img").hide();
+            // $("#id").hide();
+            // $(".class").hide();
+            // $(".class").fadeOut(5000);
+            // $(".class").fadeIn(5000);
+            $(".class").fadeToggle(5000);
+        }); // when we click on p
+    })
+
+
+
+// We have three Selectors in jquery 
+
+// 1. Element Selectors
+// 2. ID Selectors
+// 3. Class Selectors
+
+</script>
+
+</html>
