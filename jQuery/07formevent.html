@@ -34,11 +34,13 @@
 <script>
     $(document).ready(function(){
         $('#name,#email,#course').focus(function(){
-            $(this).css('background-color', 'teal');
+            // $(this).css('background-color', 'teal');
+            $(this).css({ "background-color": "red", "color": "white" });
         });
 
 
         $('#name,#email,#course').blur(function(){
+            // $(this).css('background-color', '');
             $(this).css('background-color', '');
         });
 
